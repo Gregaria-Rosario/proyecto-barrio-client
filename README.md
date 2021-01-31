@@ -25,3 +25,4 @@ La colaboración para conquistar tu barrio
 - [Next JS](https://nextjs.org/docs)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Firebase](https://firebase.google.com/docs)
+- [React Leaflet](https://react-leaflet.js.org/)
