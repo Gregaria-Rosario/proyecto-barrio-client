@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto-Mono";
+  src: url("/fonts/Roboto_Mono/static/RobotoMono-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

@@ -18,7 +18,7 @@ export default function Home() {
   );
 
   return (
-    <section style={{ height: `calc(100vh - 8rem)` }}>
+    <section style={{ height: `calc(100vh - 10.5rem)` }}>
       <Head>
         <title>Mi Barrio | Barrio Proyecto</title>
         <link rel="icon" href="/favicon.ico" />
