@@ -8,8 +8,9 @@ La colaboración para conquistar tu barrio
 
 ## Dependencies
 
-- [Yarn](https://yarnpkg.com)
 - [Node](https://nodejs.org)
+- [Yarn](https://yarnpkg.com)
+- [Netlify CLI](https://cli.netlify.com)
 
 ## Run
 
@@ -18,10 +19,10 @@ La colaboración para conquistar tu barrio
 - yarn dev
 ```
 
-## Build Static
+## Netlify Build
 
 ```bash
-- yarn export
+- netlify build
 ```
 
 ## Documentation References
@@ -30,3 +31,4 @@ La colaboración para conquistar tu barrio
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Firebase](https://firebase.google.com/docs)
 - [React Leaflet](https://react-leaflet.js.org/)
+- [Netlify CLI](https://cli.netlify.com)
