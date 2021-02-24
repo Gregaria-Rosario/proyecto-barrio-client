@@ -1,11 +1,13 @@
 [build]
-  command   = "yarn build"
-  functions = "out_functions"
-  publish   = "out_publish"
+  command = "npm run build"
+  publish = "out"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
 [dev]
-  functions = "out_functions"
-  publish   = "out_publish"
+  functions = "netlify/functions"
+  publish   = "out"
   # We manually set the framework to static, otherwise Netlify automatically
   # detects Next.js and redirects do not work.
   # Read more: https://github.com/netlify/cli/blob/master/docs/netlify-dev.md#project-detection
